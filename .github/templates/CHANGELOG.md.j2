@@ -9,6 +9,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 {%- set last_release = context.history.released.items() | first | first -%}
 {%- set unreleased = version_compare_url(last_release.as_tag(), "main") -%}
 ## [Unreleased]({{ unreleased }})
+
 {# RELEASED #}
 {%- for version, release in context.history.released.items() -%}
 {%- if loop.nextitem -%}{# the very first release of the project has no predecessor -#}

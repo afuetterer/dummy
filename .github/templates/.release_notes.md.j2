@@ -4,5 +4,6 @@
 {% if releases | length > 1 %}{# the very first release of the project has no predecessor -#}
 {%- set prev_version = releases[1][0] -%}
 {%- set full_changelog_url = version_compare_url(prev_version,  version ) -%}
+
 **Full Changelog**: {{ full_changelog_url }}
 {% endif %}
