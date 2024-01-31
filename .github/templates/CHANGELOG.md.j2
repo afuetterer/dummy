@@ -16,7 +16,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 {%- set prev_version = loop.nextitem[0] -%}
 {%- set compare_url = version_compare_url(prev_version, version) -%}
 ## [{{ version.as_tag() }}]({{ compare_url }}) ({{ release.tagged_date.strftime("%Y-%m-%d") }})
-{% else %}
+{% else -%}
 ## {{ version.as_tag() }} ({{ release.tagged_date.strftime("%Y-%m-%d") }})
 {% endif -%}
 {% include ".changes.j2" %}
