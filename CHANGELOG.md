@@ -5,7 +5,21 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html). See
 [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for commit guidelines.
 
-## [Unreleased](https://github.com/afuetterer/dummy/compare/0.2.2...main)
+## [Unreleased](https://github.com/afuetterer/dummy/compare/0.3.0...main)
+
+## [0.3.0](https://github.com/afuetterer/dummy/compare/0.2.2...0.3.0) (2024-01-31)
+
+### Features
+
+- hello ([`2d2b9a3`](https://github.com/afuetterer/dummy/commit/2d2b9a3c6da979f821ae92d1ff34ec6dec9e723d))
+
+### Performance improvements
+
+- hello ([`fa30e85`](https://github.com/afuetterer/dummy/commit/fa30e85954ad89c6d5f0cfaa9ccf5539e0b55f2a))
+
+### Documentation
+
+- some docs ([`b684530`](https://github.com/afuetterer/dummy/commit/b6845300835f63101af9a28a13c93467e40df709))
 
 ## [0.2.2](https://github.com/afuetterer/dummy/compare/0.2.1...0.2.2) (2024-01-31)
 
