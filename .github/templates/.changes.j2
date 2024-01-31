@@ -7,7 +7,6 @@
   ("test", "Testing"),
   ("documentation", "Documentation"),
 ) -%}{# allowed commit types and their order in the changelog -#}
-
 {%- for commit_type, heading in commit_type_heading_mapping if commit_type in release["elements"] %}
 ### {{ heading }}
 
